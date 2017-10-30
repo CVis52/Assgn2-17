@@ -1,0 +1,6 @@
+fun somefun (a,b,c) = 
+   let
+      fun add (x,y) = x + y
+      fun sub (y,z) = y - z
+   in 
+     add (a,b) + sub (b,c)
